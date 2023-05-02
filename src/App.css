@@ -2,37 +2,120 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #ECE9AA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #4E4345;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#home {
+  background-color: #ECE9AA;
+  height: 100%;
+  margin: 5%;
+  padding: 12% 10% 15% 10%;
+}
+
+.input-output {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 5%;
+}
+
+.left-align {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.input {
+  background-color: #C69E7C;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
+  width: 40%;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5%;
+}
+
+.input:hover {
+  background-color: #A48F67;
+}
+
+.output {
+  background-color: #C69E7C;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
+  width: 40%;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5%;
+  padding-bottom: 2%;
+}
+
+.output:hover {
+  background-color: #A48F67;
+}
+
+.submit-button {
+  background-color: #4E4345;
+  color: #EFB246;
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #EFB246;
+  color: #4E4345;
+}
+
+#devs {
+  background-color: #4E4345;
+  color: #EFB246;
+  text-align: center;
+}
+
+.team-container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1%;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.team-container:hover {
+  height: 100vh;
+}
+
+.head-container {
+  width: 100%;
+}
+
+.person-container {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  width: 20%;
+}
+
+.mem-img {
+  width: 100%;
+  border-radius: 50%;
 }
